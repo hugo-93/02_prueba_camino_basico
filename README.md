@@ -1,2 +1,6 @@
-# 02_prueba_camino_basico
-Pruebas de unidad con JUnit. Prueba del camino básico o McCabe. Ejercicio tipo de triángulo.
+# pruebas_de_unidad
+Pruebas de unidad con JUnit.
+
+Ejercicio tipo de triángulo:
+	Prueba del camino básico o McCabe.
+	Prueba de condiciones múltiples (or's lógicos [||]).

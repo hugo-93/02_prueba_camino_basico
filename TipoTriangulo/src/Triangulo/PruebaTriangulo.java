@@ -27,6 +27,19 @@ public class PruebaTriangulo {
         //assertFalse(triangulo.TipoTriangulo(1, 2, 3) == Triangulo.TIPO_ESCALENO);
     }
 
+    // Método de prueba
+    @Test
+    public void TipoTrianguloCondicionesMultiples() {
+        Triangulo triangulo = new Triangulo();
+        assertEquals(triangulo.TipoTriangulo(1, 2, 3), Triangulo.NO_ES_TRIANGULO); // (l1 + l2 <= l3)
+        assertEquals(triangulo.TipoTriangulo(1, 3, 2), Triangulo.NO_ES_TRIANGULO); // (l1 + l3 <= l2)
+        assertEquals(triangulo.TipoTriangulo(3, 1, 2), Triangulo.NO_ES_TRIANGULO); // (l2 + l3 <= l1)
+
+        assertEquals(triangulo.TipoTriangulo(2, 2, 3), Triangulo.TIPO_ISOSCELES); // l1 == l2
+        assertEquals(triangulo.TipoTriangulo(2, 3, 2), Triangulo.TIPO_ISOSCELES); // l1 == l3
+        assertEquals(triangulo.TipoTriangulo(3, 2, 2), Triangulo.TIPO_ISOSCELES); // l2 == l3
+    }
+
     public static junit.framework.Test suite() {
         return new JUnit4TestAdapter(PruebaTriangulo.class);
     }
