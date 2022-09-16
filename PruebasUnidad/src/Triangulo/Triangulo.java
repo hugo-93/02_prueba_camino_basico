@@ -6,7 +6,7 @@ package Triangulo;
 
 /**
  *
- * @author hugobook
+ * @author Hugo Ayón
  *
  * Escriba una clase Java Triangulo, en el paquete Triangulo, que incluya los
  * métodos public int TipoTriangulo(int l1, int l2, int l3) y public void

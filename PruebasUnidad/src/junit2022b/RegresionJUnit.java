@@ -9,7 +9,7 @@ import LimpiaParabrisas.PruebaLimpiaParabrisas;
 
 /**
  *
- * @author hugobook
+ * @author Hugo Ayón
  */
 public class RegresionJUnit {
 

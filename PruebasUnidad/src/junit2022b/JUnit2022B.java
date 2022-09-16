@@ -8,7 +8,7 @@ import Triangulo.Triangulo;
 
 /**
  *
- * @author hugobook
+ * @author Hugo Ayón
  */
 public class JUnit2022B {
 

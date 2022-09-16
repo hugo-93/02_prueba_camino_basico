@@ -10,7 +10,7 @@ import junit.framework.JUnit4TestAdapter;
 
 /**
  *
- * @author hugobook
+ * @author Hugo Ayón
  */
 public class PruebaTriangulo {
 
