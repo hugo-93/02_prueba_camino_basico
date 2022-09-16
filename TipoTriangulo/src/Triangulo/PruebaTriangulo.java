@@ -40,6 +40,26 @@ public class PruebaTriangulo {
         assertEquals(triangulo.TipoTriangulo(3, 2, 2), Triangulo.TIPO_ISOSCELES); // l2 == l3
     }
 
+    // Método de prueba
+    @Test
+    public void TipoTrianguloTablaDeCondiciones() {
+        Triangulo triangulo = new Triangulo();
+        assertEquals(triangulo.TipoTriangulo(0, 2, 1), Triangulo.NO_ES_TRIANGULO);
+        assertEquals(triangulo.TipoTriangulo(3, 0, 1), Triangulo.NO_ES_TRIANGULO);
+        assertEquals(triangulo.TipoTriangulo(3, 3, 0), Triangulo.NO_ES_TRIANGULO);
+        assertEquals(triangulo.TipoTriangulo(4, 2, 2), Triangulo.NO_ES_TRIANGULO);
+        assertEquals(triangulo.TipoTriangulo(3, 5, 1), Triangulo.NO_ES_TRIANGULO);
+        assertEquals(triangulo.TipoTriangulo(3, 3, 7), Triangulo.NO_ES_TRIANGULO);
+        
+        assertEquals(triangulo.TipoTriangulo(3, 3, 3), Triangulo.TIPO_EQUILATERO);
+        
+        assertEquals(triangulo.TipoTriangulo(2, 2, 3), Triangulo.TIPO_ISOSCELES);
+        assertEquals(triangulo.TipoTriangulo(2, 1, 2), Triangulo.TIPO_ISOSCELES);
+        assertEquals(triangulo.TipoTriangulo(5, 3, 3), Triangulo.TIPO_ISOSCELES);
+    
+        assertEquals(triangulo.TipoTriangulo(3, 4, 5), Triangulo.TIPO_ESCALENO);
+    }
+
     public static junit.framework.Test suite() {
         return new JUnit4TestAdapter(PruebaTriangulo.class);
     }
