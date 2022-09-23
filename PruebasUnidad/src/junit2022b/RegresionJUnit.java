@@ -4,6 +4,7 @@
  */
 package junit2022b;
 
+import Fechas.PruebaFechas;
 import Triangulo.PruebaTriangulo;
 import LimpiaParabrisas.PruebaLimpiaParabrisas;
 
@@ -14,6 +15,7 @@ import LimpiaParabrisas.PruebaLimpiaParabrisas;
 public class RegresionJUnit {
 
     public static void main(String... args) {
+        junit.textui.TestRunner.run(PruebaFechas.suite());
         junit.textui.TestRunner.run(PruebaTriangulo.suite());
         junit.textui.TestRunner.run(PruebaLimpiaParabrisas.suite());
     }
