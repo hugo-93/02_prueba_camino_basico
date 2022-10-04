@@ -5,8 +5,10 @@
 package junit2022b;
 
 import Fechas.PruebaFechas;
-import Triangulo.PruebaTriangulo;
+import Intereses.PruebaIntereses;
 import LimpiaParabrisas.PruebaLimpiaParabrisas;
+import Triangulo.PruebaTriangulo;
+
 
 /**
  *
@@ -18,5 +20,6 @@ public class RegresionJUnit {
         junit.textui.TestRunner.run(PruebaFechas.suite());
         junit.textui.TestRunner.run(PruebaTriangulo.suite());
         junit.textui.TestRunner.run(PruebaLimpiaParabrisas.suite());
+        junit.textui.TestRunner.run(PruebaIntereses.suite());
     }
 }

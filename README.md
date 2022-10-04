@@ -20,3 +20,7 @@ Ejercicio tipo de triángulo:
 
 Ejercicio limpiaparabrisas:
     Prueba tabla de condiciones.
+
+
+Ejercicio intereses:
+    Prueba de ciclos.
