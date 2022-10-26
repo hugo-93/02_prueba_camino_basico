@@ -28,3 +28,7 @@ Ejercicio intereses:
 
 Ejercicio inflación:
     Prueba de ciclos.
+
+
+Ejercicio fórmula general para ecuaciones cuadráticas (chicharronera):
+    Prueba de constructor.
