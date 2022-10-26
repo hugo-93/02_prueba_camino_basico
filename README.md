@@ -24,3 +24,7 @@ Ejercicio limpiaparabrisas:
 
 Ejercicio intereses:
     Prueba de ciclos.
+
+
+Ejercicio inflación:
+    Prueba de ciclos.
