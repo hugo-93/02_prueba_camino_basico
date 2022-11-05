@@ -25,7 +25,7 @@ public class PruebaChicharronera {
 
     // Método de prueba
     @Test
-    public void InflacionCiclos() {
+    public void ChicharroneraConstructor() {
         assertFalse(e.FormulaGeneral());
         assertFalse(f.FormulaGeneral());
     }
