@@ -6,6 +6,7 @@ package junit2022b;
 
 import Chicharronera.PruebaChicharronera;
 import Fechas.PruebaFechas;
+import Formulario.PruebaFormulario;
 import Inflacion.PruebaInflacion;
 import Intereses.PruebaIntereses;
 import LimpiaParabrisas.PruebaLimpiaParabrisas;
@@ -24,5 +25,6 @@ public class RegresionJUnit {
         junit.textui.TestRunner.run(PruebaIntereses.suite());
         junit.textui.TestRunner.run(PruebaInflacion.suite());
         junit.textui.TestRunner.run(PruebaChicharronera.suite());
+        junit.textui.TestRunner.run(PruebaFormulario.suite());
     }
 }

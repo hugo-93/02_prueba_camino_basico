@@ -32,3 +32,7 @@ Ejercicio inflación:
 
 Ejercicio fórmula general para ecuaciones cuadráticas (chicharronera):
     Prueba de constructor.
+
+
+Ejercicio formulario:
+    Prueba de particiones de equivalencia.
