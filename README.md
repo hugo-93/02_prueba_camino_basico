@@ -36,3 +36,7 @@ Ejercicio fórmula general para ecuaciones cuadráticas (chicharronera):
 
 Ejercicio formulario:
     Prueba de particiones de equivalencia.
+
+
+Ejercicio racional:
+    Prueba de constructor.

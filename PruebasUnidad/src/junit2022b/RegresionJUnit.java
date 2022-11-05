@@ -10,6 +10,7 @@ import Formulario.PruebaFormulario;
 import Inflacion.PruebaInflacion;
 import Intereses.PruebaIntereses;
 import LimpiaParabrisas.PruebaLimpiaParabrisas;
+import Racional.PruebaRacional;
 import Triangulo.PruebaTriangulo;
 
 /**
@@ -26,5 +27,6 @@ public class RegresionJUnit {
         junit.textui.TestRunner.run(PruebaInflacion.suite());
         junit.textui.TestRunner.run(PruebaChicharronera.suite());
         junit.textui.TestRunner.run(PruebaFormulario.suite());
+        junit.textui.TestRunner.run(PruebaRacional.suite());
     }
 }
